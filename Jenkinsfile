@@ -47,7 +47,6 @@ pipeline {
         }
         stage('Deploy on prod') {
             steps {
-                git clone https:////
                 echo 'Deploy on Production'
             }
         }
